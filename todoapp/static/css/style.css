@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Reset some default styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Header styles */
+.signup-login {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Container styles */
+.signup-box {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.heads {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-size: 28px;
+}
+
+/* Form styles */
+.todo-input {
+  width: 93%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 98%;
+  padding: 12px;
+  background-color: #0c788d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0d426b;
+}
+
+/* Todo item styles */
+.Todo {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.todo-red {
+  background-color: #05599ac6;
+  border-color: purple;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Icons */
+.fa-pen-to-square,
+.fa-trash {
+  font-size: 20px;
+  margin-left: 15px;
+  color: #333;
+  cursor: pointer;
+}
+
+.fa-pen-to-square:hover,
+.fa-trash:hover {
+  color: #0c788d;
+}
