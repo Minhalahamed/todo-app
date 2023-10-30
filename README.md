@@ -1,5 +1,4 @@
 ToDo App
-ToDo App Logo
 
 The ToDo App is a simple task management application that helps you keep track of your daily tasks, projects, and deadlines. Whether you're a student managing assignments, a professional handling work-related tasks, or just someone looking to stay organized, this app has got you covered.
 
@@ -43,10 +42,7 @@ Copy code
 npm install
 Start the development server:
 
-bash
-Copy code
-npm start
-The ToDo App should now be running on http://localhost:3000. You can access it using a web browser.
+
 
 Usage
 Create a new task by clicking the "Add Task" button.
@@ -70,6 +66,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgments
 The ToDo App was inspired by example-project.
 Contact
-If you have any questions or need further assistance, feel free to contact us at your@email.com.
+If you have any questions or need further assistance, feel free to contact us at aminhal901@email.com.
 
 Feel free to customize this template to match your project's specifics, including installation and usage instructions. Make sure to include clear and concise information, along with visual aids like screenshots or GIFs, to make it as user-friendly as possible.
